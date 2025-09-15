@@ -28,8 +28,11 @@ if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
 
 
+
 @app.route('/delete', methods=['DELETE'])
 def delete():
     
     return {"mensagem": "Senha removida com sucesso"}, 200
 
+#testando uma nova branch
+#olá mundo
