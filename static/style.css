@@ -1,0 +1,75 @@
+/* Corpo da página centralizado */
+body {
+    background-color: rgb(214, 66, 66);
+    display: flex;
+    justify-content: center;  /* centraliza horizontalmente */
+    align-items: center;      /* centraliza verticalmente */
+    min-height: 90vh;
+    margin: 0;
+}
+
+/* Container que organiza os formulários verticalmente */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza todos os elementos dentro do container */
+}
+
+/* Label estilizado */
+label {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+}
+
+/* Input estilizado */
+input {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 80px;
+    height: 30px;
+}
+
+/* Formulário gerar senha */
+.form-gerar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* distância do botão limpar */
+}
+
+/* Botão gerar senha */
+.form-gerar button {
+    margin-top: 10px; /* move só esse botão para baixo */
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Formulário limpar senha */
+.form-limpar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Botão limpar senha */
+.form-limpar button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0; /* você pode ajustar horizontalmente se quiser */
+}
+
+/* Senha exibida */
+.senha {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
